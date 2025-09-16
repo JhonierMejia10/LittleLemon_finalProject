@@ -120,3 +120,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignorar el entorno virtual
+envFinal/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de log
+*.log
