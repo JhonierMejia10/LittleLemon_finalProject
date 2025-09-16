@@ -1,0 +1,122 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+.env
+.env.local
+.env.production
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env/
+.virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Static files collected
+staticfiles/
+collected_static/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Project specific
+/uploads/
+/tmp/
+/temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.cache
+nosetests.xml
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# PyEnv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
