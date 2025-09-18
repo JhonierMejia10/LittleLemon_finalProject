@@ -139,7 +139,11 @@ REST_FRAMEWORK = {
         'anon':'10/day',
     },
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': '1',
+    'PAGE_SIZE': '10',
+    
+    'DEFAULT_PERMISSIONS_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated'
+    ]
 
     
 }
